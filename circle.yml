@@ -1,0 +1,9 @@
+machine:
+  java:
+    version: oraclejdk8
+dependencies:
+  override:
+    - exit 0
+test:
+  override:
+    - sbt test

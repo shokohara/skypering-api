@@ -1,0 +1,11 @@
+GET            /                     controllers.Application.index
+POST           /session              controllers.SessionController.create
+DELETE         /session              controllers.SessionController.delete
+POST           /users                controllers.UsersController.create
+GET            /users                controllers.UsersController.read
+PUT            /users                controllers.UsersController.update
+GET            /users/posts          controllers.TweetsController.histories(since_id: Long ?= Long.MinValue, count: Int ?= 20, max_id: Long ?= Long.MaxValue)
+POST           /posts                controllers.TweetsController.create
+GET            /posts                controllers.TweetsController.read(since_id:Long ?= Long.MinValue,count:Int ?= 20,max_id:Long ?= Long.MaxValue, sexes: List[Sex], prefectures: List[Prefecture], name: Option[String], skype_id: Option[String], text: Option[String])
+DELETE         /posts                controllers.TweetsController.remove
+OPTIONS        /*url                 controllers.Application.options(url)

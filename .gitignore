@@ -1,0 +1,7 @@
+/conf/evolutions/*
+/db
+/lib
+/logs
+/project/project
+/project/target
+/target

@@ -1,0 +1,51 @@
+# --- Constraints
+constraint.required=必須
+constraint.min=最小値: {0}
+constraint.max=最大値: {0}
+constraint.minLength=最小の長さ: {0}
+constraint.maxLength=最大の長さ: {0}
+constraint.email=Eメール
+
+# --- Formats
+format.date=Date (''{0}'')
+format.numeric=数値　
+format.real=Real
+format.uuid=UUID
+
+# --- Errors
+error.invalid=不正な値です
+error.invalid.java.util.Date=Invalid date value
+error.required=必須入力項目です
+error.number=数値を入力してください
+error.real=Real number value expected
+error.real.precision=Real number value with no more than {0} digit(s) including {1} decimal(s) expected
+error.min={0}より大きい値を入力してください
+error.min.strict=Must be strictly greater than {0}
+error.max={0}より小さい値を入力してください
+error.max.strict=Must be strictly less than {0}
+error.minLength={0}文字より長い文を入力してください
+error.maxLength={0}文字より短い文を入力してください
+error.email=正当なメールアドレスを入力してください
+error.pattern={0}のパターンで入力してください
+error.date=Valid date required
+error.uuid=Valid UUID required
+
+error.expected.date=Date value expected
+error.expected.date.isoformat=Iso date value expected
+error.expected.time=Time value expected
+error.expected.jodadate.format=Joda date value expected
+error.expected.jodatime.format=Joda time value expected
+error.expected.jsarray=Array value expected
+error.expected.jsboolean=Boolean value expected
+error.expected.jsnumber=Number value expected
+error.expected.jsobject=Object value expected
+error.expected.jsstring=String value expected
+error.expected.jsnumberorjsstring=String or number expected
+error.expected.keypathnode=Node value expected
+error.expected.uuid=UUID value expected
+error.expected.validenumvalue=Valid enumeration value expected
+error.expected.enumstring=String value expected
+
+error.path.empty=Empty path
+error.path.missing=Missing path
+error.path.result.multiple=Multiple results for the given path
